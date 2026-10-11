@@ -1,6 +1,9 @@
+---
+layout: default
+---
 
-<h1> Welcome to my blog! </h1>
+# Recent Posts
 
-<h1>Tamsen is the name</h1>
-
-<h2>and IT is the game</h2>
+{% for post in site.posts %}
+* [{ post.url }}
+{% endfor %}

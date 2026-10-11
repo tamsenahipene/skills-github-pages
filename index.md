@@ -1,9 +1,4 @@
 ---
-layout: default
+layout: home
+title: Home
 ---
-
-# Recent Posts
-
-{% for post in site.posts %}
-* [{ post.url }}
-{% endfor %}
